@@ -1,0 +1,59 @@
+.deleteStudent-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Adjust column width for mobile */
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  padding: 15px; /* Adjust padding for better spacing */
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteStudent-card {
+  box-shadow: rgb(38, 57, 77) 10px 30px 50px -15px;
+  border: 3px dashed rgb(38, 57, 77);
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  max-width: 100%; /* Ensure card takes full width in mobile */
+}
+
+.deleteStudent-card h2 {
+  font-size: 1.2rem; /* Adjust font size for mobile */
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.deleteStudent-card p {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(0, 0, 0);
+}
+
+.deleteStudent-card button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ant-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-modal-content {
+  max-width: 100%; /* Ensure modal takes full width in mobile */
+  width: 90%;
+}

@@ -1,0 +1,18 @@
+.Home {
+  /* Uncomment these lines if you want to use background image */
+  /* background-image: url('../Components/images/backgroundHome.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+  /* Uncomment this line to set a background color */
+  /* background-color: black; */
+
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  .Home {
+    width: 100%;
+  }
+}

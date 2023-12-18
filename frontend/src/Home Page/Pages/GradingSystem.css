@@ -1,0 +1,200 @@
+/* .GradingSystem {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  
+  
+}
+
+.GradingSystem h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.GradingSystem .button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.GradingSystem .table {
+  width: 90%;
+  border-collapse: collapse;
+  
+}
+
+.GradingSystem th,
+.GradingSystem td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.GradingSystem th.name-cell {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.GradingSystem th {
+  background-color: #ffffff;
+}
+
+.GradingSystem tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.GradingSystem .input-text,
+.GradingSystem .input-number {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.GradingSystem .input-text:focus,
+.GradingSystem .input-number:focus {
+  outline: none;
+  border-color: #d23b3b;
+}
+
+.GradingSystem .subject-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.GradingSystem .subject-label span {
+  margin-right: 5px;
+}
+.GradingSystem .submit{
+  display: block;
+  width: 150px;
+  padding: 0.75rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .GradingSystem .table {
+    overflow: scroll;
+  }
+  
+} */
+/* GradingSystem.css */
+
+.GradingSystem {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow-y: auto;
+  padding: 10px;
+  min-height: 100vh;
+  height:100%;
+}
+
+.GradingSystem h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.GradingSystem .button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.GradingSystem .table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  overflow: scroll;
+}
+
+.GradingSystem th,
+.GradingSystem td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.GradingSystem th.name-cell {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.GradingSystem th {
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+.GradingSystem tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.GradingSystem .input-text,
+.GradingSystem .input-number {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.GradingSystem .input-text:focus,
+.GradingSystem .input-number:focus {
+  outline: none;
+  border-color: #d23b3b;
+}
+
+.GradingSystem .subject-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.GradingSystem .subject-label span {
+  margin-right: 5px;
+}
+
+.GradingSystem .submit {
+  display: block;
+  width: 150px;
+  padding: 0.75rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .GradingSystem .table {
+    overflow-x: scroll;
+  }
+}

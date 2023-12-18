@@ -1,0 +1,19 @@
+.Quizheader .title {
+  text-transform: uppercase;
+  font-size: 8vw;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  color: #434343;
+}
+
+.Quizheader  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Quizheader .divider {
+  margin: 10px;
+  width: 100%;
+  background-color: grey;
+}

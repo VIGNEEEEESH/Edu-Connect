@@ -1,0 +1,12 @@
+.Addsc {
+  position: relative;
+  padding-bottom: 70px;
+}
+.Addsc .o {
+  padding: 10px;
+}
+
+.Addsc .form {
+  position: relative;
+  bottom: -50px;
+}

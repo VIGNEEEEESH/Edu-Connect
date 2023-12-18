@@ -1,0 +1,30 @@
+.Box .card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .Box .card {
+    width: calc(33.33% - 1rem);
+    
+    border: none;
+    overflow: hidden;
+    margin-bottom: 20px; 
+    
+  }
+  
+  
+  @media (max-width: 960px) {
+    /* Media query for mobile view */
+    .Box    .card-row {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .Box    .card {
+      width: 100%;
+    }
+  }
+  
